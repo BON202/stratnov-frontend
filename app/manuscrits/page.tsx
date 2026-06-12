@@ -21,7 +21,7 @@ export default function ManuscritsPage() {
   }, [])
 
   const filtered = filter ? books.filter(b => b.genre === filter) : books
-  const genres = [...new Set(books.map(b => b.genre))]
+ const genres = Array.from(new Set(books.map(b => b.genre)))
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-16">
