@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --encre: #1a1a2e;
+  --parchemin: #f5f0e8;
+  --or: #c9a84c;
+  --or-clair: #e8d5a3;
+  --rouille: #8b3a2a;
+  --brume: #6b7280;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--parchemin);
+  color: var(--encre);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, Cambria, serif;
+}
+
+.btn-primary {
+  @apply bg-encre text-parchemin px-6 py-3 font-medium tracking-wide hover:bg-rouille transition-colors duration-200;
+}
+
+.btn-outline {
+  @apply border border-encre text-encre px-6 py-3 font-medium tracking-wide hover:bg-encre hover:text-parchemin transition-colors duration-200;
+}
+
+.section-title {
+  @apply font-display text-3xl md:text-4xl text-encre mb-2;
+}
+
+.section-subtitle {
+  @apply text-brume text-lg mb-12;
+}
+
+.card {
+  @apply bg-white border border-or-clair hover:border-or transition-colors duration-200;
+}
+
+/* Ligne dorée décorative */
+.or-line {
+  width: 48px;
+  height: 2px;
+  background-color: var(--or);
+  margin: 16px 0;
+}
