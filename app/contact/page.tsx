@@ -63,7 +63,7 @@ export default function ContactPage() {
           </div>
 
           {status === 'error' && (
-            <p className="text-rouille text-sm">Une erreur s'est produite. Réessayez ou écrivez directement à contact@stratnov.com</p>
+            <p className="text-rouille text-sm">Une erreur s'est produite. Réessayez ou écrivez directement à contact.isi@stratnov.fr</p>
           )}
 
           <button type="submit" disabled={status === 'loading'} className="btn-primary self-start">
