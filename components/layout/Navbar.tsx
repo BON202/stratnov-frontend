@@ -8,6 +8,7 @@ const links = [
   { href: '/formations', label: 'Formations' },
   { href: '/blog', label: 'Blog' },
   { href: '/about', label: 'À propos' },
+  { href: '/newsletter', label: 'Newsletter' },
   { href: '/contact', label: 'Contact' },
 ]
 
