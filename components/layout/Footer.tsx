@@ -19,6 +19,7 @@ export default function Footer() {
               { href: '/formations', label: 'Formations' },
               { href: '/blog', label: 'Blog' },
               { href: '/about', label: 'À propos' },
+              { href: '/mentions-legales', label: 'Mentions légales' },
             ].map(l => (
               <li key={l.href}>
                 <Link href={l.href} className="hover:text-or transition-colors">{l.label}</Link>
@@ -39,6 +40,9 @@ export default function Footer() {
       <div className="border-t border-or border-opacity-20 px-6 py-4 max-w-6xl mx-auto">
         <p className="text-xs text-brume">© {new Date().getFullYear()} Stratnov. Tous droits réservés.</p>
       </div>
+      <li>
+  <Link href="/mentions-legales" className="hover:text-or transition-colors">Mentions légales</Link>
+</li>
     </footer>
   )
 }
