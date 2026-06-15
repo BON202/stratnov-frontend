@@ -5,9 +5,10 @@ export default function Footer() {
     <footer className="bg-encre text-parchemin mt-24">
       <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
-          <p className="font-display text-or text-lg tracking-widest mb-3">STRATNOV</p>
+          <p className="font-display text-or text-lg tracking-widest mb-1">STRATNOV</p>
+          <p className="text-xs text-parchemin/40 tracking-widest uppercase mb-4" style={{ fontSize: '9px' }}>De la page à la pratique</p>
           <p className="text-sm text-brume leading-relaxed">
-            Autrice. Écriture, formations et réflexions sur la création littéraire.
+            Livres, formations et ressources sur la stratégie, le management, le droit des affaires et le contrôle de gestion.
           </p>
         </div>
         <div>
@@ -27,8 +28,11 @@ export default function Footer() {
         </div>
         <div>
           <p className="text-xs tracking-widest uppercase text-brume mb-4">Contact</p>
-          <a href="mailto:contact@stratnov.com" className="text-sm hover:text-or transition-colors">
-            contact@stratnov.com
+          <a href="mailto:contact.isi@stratnov.fr" className="text-sm hover:text-or transition-colors block mb-2">
+            contact.isi@stratnov.fr
+          </a>
+          <a href="https://www.amazon.com/dp/XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-or transition-colors text-brume">
+            Livres sur Amazon KDP ↗
           </a>
         </div>
       </div>
