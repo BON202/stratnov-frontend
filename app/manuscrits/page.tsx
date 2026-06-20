@@ -241,7 +241,7 @@ export default function ManuscritsPage() {
                 <span style={{ fontSize: '.72rem', padding: '.3rem .75rem', background: 'rgba(90,138,90,.1)', color: '#3d6b3d', fontWeight: 600 }}>✓ Disponible</span>
               </div>
               <div style={{ display: 'flex', gap: '1rem' }}>
-                <a href="https://www.amazon.fr" target="_blank" rel="noopener noreferrer" className="amazon-btn" style={{ flex: 1 }}>Commander sur Amazon →</a>
+                <a href="https://www.amazon.fr/dp/B0GYDMM4WQ" target="_blank" rel="noopener noreferrer" className="amazon-btn" style={{ flex: 1 }}>Commander sur Amazon →</a>
                 <a href="/contact" className="contact-btn" style={{ flex: 1 }}>Contacter</a>
               </div>
             </div>
@@ -271,7 +271,7 @@ export default function ManuscritsPage() {
                 <span style={{ fontSize: '.72rem', padding: '.3rem .75rem', background: 'rgba(90,138,90,.1)', color: '#3d6b3d', fontWeight: 600 }}>✓ Disponible</span>
               </div>
               <div style={{ display: 'flex', gap: '1rem' }}>
-                <a href="https://www.amazon.fr" target="_blank" rel="noopener noreferrer" className="amazon-btn" style={{ flex: 1 }}>Commander sur Amazon →</a>
+                <a href="https://www.amazon.fr/dp/B0GYDMM4WQ" target="_blank" rel="noopener noreferrer" className="amazon-btn" style={{ flex: 1 }}>Commander sur Amazon →</a>
                 <a href="/contact" className="contact-btn" style={{ flex: 1 }}>Contacter</a>
               </div>
             </div>
@@ -322,7 +322,7 @@ export default function ManuscritsPage() {
                 </div>
               )}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
-                <a href="https://www.amazon.fr" target="_blank" rel="noopener noreferrer" className="amazon-btn">Commander sur Amazon KDP →</a>
+                <a href="https://www.amazon.fr/dp/B0GYDMM4WQ" target="_blank" rel="noopener noreferrer" className="amazon-btn">Commander sur Amazon KDP →</a>
                 <a href="/contact" className="contact-btn" onClick={() => setPanel(null)}>Contacter</a>
               </div>
             </div>
