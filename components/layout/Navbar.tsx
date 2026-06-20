@@ -7,8 +7,8 @@ const links = [
   { href: '/manuscrits', label: 'Manuscrits' },
   { href: '/formations', label: 'Formations' },
   { href: '/blog', label: 'Blog' },
-  { href: '/about', label: 'À propos' },
   { href: '/newsletter', label: 'Newsletter' },
+  { href: '/about', label: 'À propos' },
   { href: '/contact', label: 'Contact' },
 ]
 
@@ -16,17 +16,18 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="bg-encre text-parchemin">
+    <nav className="bg-encre text-parchemin" aria-label="Navigation principale">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-display text-xl tracking-widest text-or">
-          STRATNOV
+        <Link href="/" className="flex flex-col" aria-label="Accueil Stratnov">
+          <span className="font-display text-xl tracking-widest text-or">STRATNOV</span>
+          <span style={{ fontSize: '9px', letterSpacing: '.15em', textTransform: 'uppercase', color: 'rgba(245,240,232,.4)' }}>De la page à la pratique</span>
         </Link>
 
         {/* Desktop */}
-        <ul className="hidden md:flex gap-8 text-sm tracking-wide">
+        <ul className="hidden md:flex gap-8 text-sm tracking-wide" style={{ fontWeight: 500 }}>
           {links.map(l => (
             <li key={l.href}>
-              <Link href={l.href} className="hover:text-or transition-colors duration-200">
+              <Link href={l.href} className="hover:text-or transition-colors duration-200" style={{ fontSize: '.9rem' }}>
                 {l.label}
               </Link>
             </li>
@@ -37,7 +38,7 @@ export default function Navbar() {
         <button
           className="md:hidden text-parchemin"
           onClick={() => setOpen(!open)}
-          aria-label="Menu"
+          aria-label={open ? 'Fermer le menu' : 'Ouvrir le menu'}
         >
           <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2">
             {open ? (
@@ -59,7 +60,7 @@ export default function Navbar() {
           <ul className="flex flex-col gap-4 pt-4 text-sm tracking-wide">
             {links.map(l => (
               <li key={l.href}>
-                <Link href={l.href} onClick={() => setOpen(false)} className="hover:text-or transition-colors">
+                <Link href={l.href} onClick={() => setOpen(false)} className="hover:text-or transition-colors" style={{ fontSize: '1rem', fontWeight: 500 }}>
                   {l.label}
                 </Link>
               </li>

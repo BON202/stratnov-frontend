@@ -5,10 +5,10 @@ import Footer from '@/components/layout/Footer'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Stratnov — Autrice',
+    default: 'Stratnov — Isidore Bony',
     template: '%s | Stratnov',
   },
-  description: 'Site officiel de Stratnov, autrice. Manuscrits, formations et blog.',
+  description: 'Auteur, formateur et stratège. Livres, formations et ressources sur le leadership, le droit des affaires et le management.',
   openGraph: {
     siteName: 'Stratnov',
     locale: 'fr_FR',

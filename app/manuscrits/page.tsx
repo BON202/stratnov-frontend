@@ -282,7 +282,7 @@ export default function ManuscritsPage() {
               <p style={{ fontStyle: 'italic', color: '#5a4f4a', marginBottom: '1.25rem', fontSize: '.95rem', fontWeight: 400 }}>Ce que personne ne vous dit avant de diriger</p>
               <div style={{ width: 44, height: 4, background: '#c9a84c', marginBottom: '1.5rem' }}></div>
               <p className="body-text" style={{ marginBottom: '1.5rem' }}>
-                Isidore Bony déconstruit les illusions sur le leadership avec une honnêteté rare. À travers des cas concrets, elle révèle ce que diriger exige vraiment : accepter l'incertitude, assumer des arbitrages impossibles et construire une posture qui tienne dans la durée.
+                Isidore Bony déconstruit les illusions sur le leadership avec une honnêteté rare. À travers des cas concrets, il révèle ce que diriger exige vraiment : accepter l'incertitude, assumer des arbitrages impossibles et construire une posture qui tienne dans la durée.
               </p>
               <blockquote style={{ borderLeft: '4px solid #c9a84c', paddingLeft: '1.25rem', fontFamily: 'Cormorant Garamond, Georgia, serif', fontStyle: 'italic', color: '#2a1f1a', fontSize: '1.1rem', lineHeight: 1.75, marginBottom: '2rem', fontWeight: 400 }}>
                 « Je ne sais pas si ça va marcher. Je pense que c'est la meilleure décision avec ce que je sais ce matin. »
